@@ -116,4 +116,24 @@ p {
         border-color: transparent;
     }
 }
+
+/* RESPONSIVE */
+@media (max-width: 768px){
+	.hero-section{
+		grid-template-columns: 1fr;
+		min-height: auto;
+		padding-inline: 24px;
+		gap: 32px;
+		padding-block: 20px;
+		padding-top: 150px;
+	}
+
+	h1{
+		font-size: 36px;
+	}
+
+	.text-block{
+		max-width: 100%;
+	}
+}
 </style>
