@@ -12,12 +12,24 @@
   "dependencies": {
     "@lordicon/element": "^3.0.2",
     "@nuxt/fonts": "^0.14.0",
+    "@tresjs/cientos": "^5.9.3",
+    "@tresjs/nuxt": "^5.7.3",
     "nuxt": "^4.6.0",
+    "three": "^0.186.1",
     "vue": "^3.5.43",
     "vue-router": "^5.3.1"
   },
   "allowScripts": {
     "esbuild@0.28.2": true,
     "esbuild@0.27.7": true
+  },
+  "devDependencies": {
+    "@types/three": "^0.186.0"
+  },
+  "overrides": {
+    "fontless": {
+      "esbuild": "0.28.2"
+    },
+    "@nuxt/devtools": "4.0.0-beta.4"
   }
 }

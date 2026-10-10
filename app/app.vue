@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import HeroSection from "./components/HeroSection.vue";
 import TopBar from "./components/topBar.vue";
+
 </script>
 <template>
 	<div>

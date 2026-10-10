@@ -10,5 +10,5 @@ export default defineNuxtConfig({
 	vue: {
 		compilerOptions: { isCustomElement: (tag) => tag === "lord-icon" },
 	},
-	modules: ["@nuxt/fonts"],
+	modules: ["@nuxt/fonts", "@tresjs/nuxt"],
 });
